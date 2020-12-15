@@ -9,7 +9,7 @@ def deal_cards():
 
 def calculate(cards):
     if sum(cards) == 21 and len(cards) == 2:
-        return 0
+        return 21
 
     if 11 in cards and sum(cards) > 21:
         cards.remove(11)

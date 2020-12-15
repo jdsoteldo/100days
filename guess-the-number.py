@@ -19,7 +19,8 @@ while not guessed and lives > 0:
         lives -= 1
         if lives == 0:
             print("You ran out of lives :(")
-        if guess > choice:
+            print(f"The answer was: {choice}")
+        elif guess > choice:
             print("Too high")
         elif guess < choice:
             print("Too low")
