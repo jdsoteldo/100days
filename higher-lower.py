@@ -9,7 +9,7 @@ def game():
     score = 0
     a = random.randint(0, len(data) - 1)
     b = random.randint(0, len(data) - 1)
-    
+
     while not game_over:
 
         followers_a = data[a]['follower_count']
