@@ -1,5 +1,4 @@
 from day_15_menu import *
-from collections import Counter
 import os
 
 quarters = 0.25
